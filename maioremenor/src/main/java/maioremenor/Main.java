@@ -14,6 +14,7 @@ public class Main {
             int numero = input.nextInt();
             lista[i] = numero;
         }
+        input.close();
 
         for (int i = 0; i < lista.length; i++)
         {
